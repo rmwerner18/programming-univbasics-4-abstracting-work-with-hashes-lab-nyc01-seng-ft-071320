@@ -8,9 +8,9 @@ end
 
 def update_counting_hash(hash, key)
   if hash[key]
-    return hash = {key => hash[key] + 1}
+    return hash
   else
     hash[key] = 1
-    return hash = {key => 1}
+    return hash
   end
 end
